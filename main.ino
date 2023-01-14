@@ -17,11 +17,11 @@
 const int signalButtons[NUMBER_OF_SIGNALS][2] = {{DD2, DD3}};
 const int signalOutputs[NUMBER_OF_SIGNALS][3] = {{A0, A1, A2}};
 const int signalPatterns[NUM_SIGNAL_PATTERNS][3] = {
-    {LOW, LOW, LOW}, 
     {HIGH, HIGH, HIGH},
-    {LOW, HIGH, LOW},
-    {HIGH, LOW, LOW},
+    {LOW, LOW, LOW},
     {HIGH, LOW, HIGH},
+    {LOW, HIGH, HIGH},
+    {LOW, HIGH, LOW},
 };
 const int signalLongPressConfig[NUMBER_OF_SIGNALS][2] = {
     {SIGNAL_HP2, SIGNAL_OFF}
